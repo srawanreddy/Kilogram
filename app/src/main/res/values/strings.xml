@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Kilogram</string>
+    <string name="title_text">Kilogram</string>
+    <string name="password_hint">Password</string>
+    <string name="Button_text">Login</string>
+    <string name="info_signup">Not a member yet? Please Sign in</string>
+    <string name="sign_in_buttontext">Sign in</string>
+    <string name="usernameET_signup">Enter Username</string>
+    <string name="passwordEt_text">Enter Password</string>
+    <string name="male_radio_text">Male</string>
+    <string name="female_radio_text">Female</string>
+    <string name="agree_check_text">Agree</string>
+    <string name="submit_button_text">Submit</string>
+    <string name="submit_text">Submit</string>
+    <string name="confirm_button_text">Confirm</string>
+</resources>

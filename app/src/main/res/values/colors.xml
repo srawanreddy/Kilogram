@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="title_color">#fff</color>
+    <color name="black">#868181</color>
+    <color name="checkbox_color">#6c6b6b</color>
+    <color name="button_text_Color">#fff</color>
+    <color name="info_signin_color">#FF637AEF</color>
+</resources>

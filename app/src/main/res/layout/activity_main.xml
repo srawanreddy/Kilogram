@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sravanreddy.kilogram.MainActivity">
+
+
+    <EditText
+        android:id="@+id/username_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginTop="@dimen/editText_margintop"
+        android:layout_marginBottom="@dimen/editText_margin"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+
+        android:gravity="center_horizontal"
+        android:hint="Enter your Username"
+        android:inputType="textPersonName"
+        android:padding="@dimen/editText_padding" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginBottom="@dimen/editText_margin"
+        android:background="@drawable/edittext_background"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/editText_padding"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginBottom="@dimen/editText_margin"
+        android:buttonTint="@color/checkbox_color"
+        android:textColor="@color/checkbox_color"
+        android:text="Show Password" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginBottom="@dimen/editText_margin"
+        android:padding="@dimen/button_padding"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/button_text_Color"
+        android:background="@drawable/button_bg_gradient"
+        android:text="@string/Button_text" />
+
+    <TextView
+        android:id="@+id/info_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginBottom="@dimen/editText_margin"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        
+        android:text="@string/info_signup"
+        android:textColor="@color/info_signin_color"/>
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginBottom="@dimen/editText_margin"
+        android:padding="@dimen/button_padding"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/button_text_Color"
+        android:background="@drawable/button_bg_gradient"
+        android:text="@string/sign_in_buttontext" />
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleBackgroundStyle">@style/window_titlebar</item>
+        <item name="android:windowTitleSize">@dimen/window_title_size</item>
+    </style>
+    <style name="window_titlebar">
+        <item name="android:background">@drawable/bg_gradient_titlebar</item>
+    </style>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sravanreddy.kilogram.Main3Activity">
+
+
+    <TextView
+        android:id="@+id/userName_final"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginTop="@dimen/editText_margin"
+        android:background="@drawable/edittext_background"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/editText_padding"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/gender_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginTop="@dimen/editText_margin"
+        android:background="@drawable/edittext_background"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/editText_padding"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/dob_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginTop="@dimen/editText_margin"
+        android:background="@drawable/edittext_background"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/editText_padding"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginBottom="@dimen/editText_margin"
+        android:layout_marginTop="@dimen/editText_margin"
+        android:padding="@dimen/button_padding"
+        android:onClick="handleClick"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/button_text_Color"
+        android:background="@drawable/button_bg_gradient"
+        android:text="@string/confirm_button_text" />
+</LinearLayout>

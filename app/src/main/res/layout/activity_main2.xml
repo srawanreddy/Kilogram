@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.sravanreddy.kilogram.Main2Activity">
+
+    <EditText
+        android:id="@+id/usernameET_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginTop="@dimen/editText_margin"
+        android:background="@drawable/edittext_background"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/editText_padding"
+        android:hint="@string/usernameET_signup" />
+
+    <EditText
+        android:id="@+id/passwordET_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginTop="@dimen/editText_margin"
+        android:background="@drawable/edittext_background"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/editText_padding"
+        android:hint="@string/passwordEt_text"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/confirmPassword_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginTop="@dimen/editText_margin"
+        android:background="@drawable/edittext_background"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/editText_padding"
+        android:hint="Confirm Password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/male_radio"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:onClick="radioClickHandler"
+            android:buttonTint="@color/checkbox_color"
+            android:textColor="@color/checkbox_color"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/female_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/checkbox_color"
+            android:onClick="radioClickHandler"
+            android:textColor="@color/checkbox_color"
+            android:layout_marginTop="20dp"
+            android:text="Female" />
+</RadioGroup>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/dob_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginTop="@dimen/editText_margin"
+        android:background="@drawable/edittext_background"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/editText_padding"
+        android:hint="Enter your Date of birth" />
+
+    <CheckBox
+        android:id="@+id/agree_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginBottom="@dimen/editText_margin"
+        android:layout_marginTop="@dimen/editText_margin"
+        android:buttonTint="@color/checkbox_color"
+        android:textColor="@color/checkbox_color"
+        android:text="I agree to the terms" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/editText_margin"
+        android:layout_marginRight="@dimen/editText_margin"
+        android:layout_marginBottom="@dimen/editText_margin"
+        android:padding="@dimen/button_padding"
+        android:onClick="submitHandler"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/button_text_Color"
+        android:background="@drawable/button_bg_gradient"
+        android:text="@string/submit_text" />
+
+
+</LinearLayout>
